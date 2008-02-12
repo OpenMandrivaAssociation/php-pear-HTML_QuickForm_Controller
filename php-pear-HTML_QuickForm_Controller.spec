@@ -3,10 +3,10 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}_Controller
 
-Summary:	%{_pearname} - add-on to HTML_QuickForm that allows building of multiple forms 
+Summary:	Add-on to HTML_QuickForm that allows building of multiple forms 
 Name:		php-pear-%{_pearname}
 Version:	1.0.8
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
