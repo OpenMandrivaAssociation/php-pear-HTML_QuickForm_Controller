@@ -5,18 +5,18 @@
 
 Summary:	Add-on to HTML_QuickForm that allows building of multiple forms 
 Name:		php-pear-%{_pearname}
-Version:	1.0.8
-Release:	%mkrel 3
+Version:	1.0.9
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/HTML_QuickForm_Controller/
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This package is essentially an implementation of a PageController
