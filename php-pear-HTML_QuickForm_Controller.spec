@@ -3,8 +3,8 @@
 %define		upstream_name	%{_class}_%{_subclass}_Controller
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.9
-Release:	%mkrel 4
+Version:	1.0.10
+Release:	%mkrel 1
 Summary:	Add-on to HTML_QuickForm that allows building of multiple forms 
 License:	PHP License
 Group:		Development/PHP
