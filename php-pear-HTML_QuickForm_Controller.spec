@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.10
-Release:	4
+Release:	5
 Summary:	Add-on to HTML_QuickForm that allows building of multiple forms 
 License:	PHP License
 Group:		Development/PHP
